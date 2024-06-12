@@ -53,7 +53,7 @@ function updateState() {
     greeting.innerText = state.greeting;
     carImage.src = state.carSrc;
     carMessage.innerText = state.carMessage;
-    document.body.style.background = state.backgroundColor;
+    document.querySelector(".container").style.background = state.backgroundColor;
     gunung1Image.src = state.gunungSrc;
 
     // Remove old class
